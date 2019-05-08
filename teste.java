@@ -14,6 +14,16 @@ public class Pessoas {
     Long cpf;
     Long rg;
 
+    @ManyToOne(mappedBy= "pessoas")
+    public Carros carro;
+
+    public Carros getCarro() {
+        return carro;
+    }
+
+    public void setCarro(Carros carro) {
+        this.carro = carro;
+    }
 
     public Long getId() {
         return id;
