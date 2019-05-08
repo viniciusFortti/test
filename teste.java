@@ -1,10 +1,14 @@
 package test;
 
 
+import javax.annotation.Generated;
+
 @Entity
 public class Pessoas {
 
-
+    @id
+    @SequenceGenerator(allocationSize = 1, name = "PESSOAS_SEQ", SequenceName = "PESSOAS_SEQ")
+    @GeneratedValue(generator = "PESSOAS_SEQ", strategy = Generation.Type.SEQUENCE)
     Long id;
     String nome;
     Long cpf;
