@@ -17,7 +17,7 @@ public class Pessoas {
     @ManyToOne(mappedBy= "pessoas")
     public Carros carro;
 
-    public Carros getCarro() {s
+    public Carros getCarro() {sa
         return carro;
     }
 
