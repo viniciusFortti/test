@@ -4,6 +4,8 @@ import br.com.vinicius.Imovel.Velho;
 import br.com.vinicius.Pessoas.*;
 import br.com.vinicius.ingresso.*;
 
+import java.util.function.Function;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -13,6 +15,7 @@ public class Main {
         p1.setSalario(1000l);
         p1.setSetor("compras");
         p1.AtualizaSalario(5000l);
+
 
         System.out.println(p1.toString());
 
@@ -54,7 +57,7 @@ public class Main {
 
         Ingresso in1 = new Normal();
         in1.setValorBRL(50l);
-
+        in1.imprimeValor(4);
         System.out.println(in1.toString());
 
         Vip in2 = new Vip();
@@ -95,6 +98,7 @@ public class Main {
         im2.calculaValor();
 
         System.out.println(im2.toString());
+
     }
 
 }

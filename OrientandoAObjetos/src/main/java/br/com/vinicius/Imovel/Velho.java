@@ -16,4 +16,13 @@ public class Velho extends Imovel{
     public void setDesconto(Long desconto) {
         this.desconto = desconto;
     }
+
+    public void exibeValorMenosODigitado(long digitado) {
+        this.setValor(getValor() - digitado);
+    }
+
+    public void exibeValorMenosODigitado(int digitado) {
+        this.setValor(getValor() - digitado);
+    }
+
 }

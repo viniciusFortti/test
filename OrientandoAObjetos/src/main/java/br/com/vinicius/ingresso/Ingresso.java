@@ -8,6 +8,8 @@ public abstract class Ingresso {
         System.out.println(valorBRL);
     }
 
+    public void imprimeValor(long dolar){ Long valor = valorBRL / dolar; System.out.println(valor); }
+
     public Long getValorBRL() {
         return valorBRL;
     }
