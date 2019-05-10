@@ -1,5 +1,9 @@
 target/
-/.gradle
+.gradle
+/build/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
