@@ -1,6 +1,8 @@
+import br.com.vinicius.Abstract.FuncionarioAbs;
 import br.com.vinicius.Imovel.Imovel;
 import br.com.vinicius.Imovel.Novo;
 import br.com.vinicius.Imovel.Velho;
+import br.com.vinicius.Interface.Mazda;
 import br.com.vinicius.Pessoas.*;
 import br.com.vinicius.ingresso.*;
 
@@ -98,6 +100,35 @@ public class Main {
         im2.calculaValor();
 
         System.out.println(im2.toString());
+
+        System.out.println("------------------------------");
+        System.out.println("carros");
+
+        Mazda m = new Mazda();
+        m.setAno(2019l);
+        m.setMarca("mitsubishi");
+        m.setNome("L1923A");
+        m.girarRodas();
+        m.desligarCarro();
+
+        System.out.println(m.toString());
+
+        FuncionarioAbs f = new FuncionarioAbs();
+        f.nome = "joel";
+        f.altura = 1.70;
+        f.verPessoa();
+
+        f.setTotal(6);
+
+        FuncionarioAbs f1 = new FuncionarioAbs();
+        f1.nome = "joel";
+        f1.altura = 1.70;
+        f1.verPessoa();
+
+        f1.setTotal(6);
+
+
+
 
     }
 
