@@ -1,4 +1,6 @@
 import br.com.vinicius.Abstract.FuncionarioAbs;
+import br.com.vinicius.Animal.Cao;
+import br.com.vinicius.Animal.Jacare;
 import br.com.vinicius.Imovel.Imovel;
 import br.com.vinicius.Imovel.Novo;
 import br.com.vinicius.Imovel.Velho;
@@ -113,19 +115,32 @@ public class Main {
 
         System.out.println(m.toString());
 
-        FuncionarioAbs f = new FuncionarioAbs();
-        f.nome = "joel";
-        f.altura = 1.70;
-        f.verPessoa();
 
-        f.setTotal(6);
+        Cao c = new Cao();
+        c.setRaça("buldog");
+        c.setFome(true);
+        c.setPais("brasil");
+        c.setExtinção(true);
+        c.fazerBarulho();
+        c.animaisExtintos(c);
+        c.mamar(c);
+        Jacare j = new Jacare();
 
-        FuncionarioAbs f1 = new FuncionarioAbs();
-        f1.nome = "joel";
-        f1.altura = 1.70;
-        f1.verPessoa();
+        j.setRaça("alado");
+        j.setPais("uruguai");
+        j.setExtinção(true);
+        j.animaisExtintos(j);
+        j.fazerBarulho();
 
-        f1.setTotal(6);
+        Jacare j1 = new Jacare();
+
+        j1.setRaça("alado");
+        j1.setPais("uruguai");
+        j1.setExtinção(true);
+        j1.animaisExtintos(j);
+        j1.fazerBarulho();
+
+
 
 
 
