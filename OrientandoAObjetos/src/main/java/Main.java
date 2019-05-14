@@ -8,7 +8,12 @@ import br.com.vinicius.Interface.Mazda;
 import br.com.vinicius.Pessoas.*;
 import br.com.vinicius.ingresso.*;
 
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
 import java.util.function.Function;
+
+import static br.com.vinicius.Metodos.*;
 
 public class Main {
 
@@ -142,6 +147,23 @@ public class Main {
 
 
 
+        atualizaSalario(20,1357);
+        verificaNumeroPositivo(7);
+        calculaIdade(1947,2019);
+
+        List<Integer> list = new ArrayList<>();
+        list.add (10);
+        list.add(15);
+        list.add(7);
+        list.add(10);
+        list.add(50);
+        list.add(3);
+        list.add(4);
+
+
+
+       list.clear();
+        System.out.println(list);
 
 
 
