@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ExceptionTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-05-17T14:14:58" hostname="vinicius-desktop" time="0.021">
+  <properties/>
+  <testcase name="AutenticaUsuario" classname="ExceptionTest" time="0.014"/>
+  <testcase name="LinhaComQuatroTraços" classname="ExceptionTest" time="0.001"/>
+  <testcase name="arquivoNaoExiste" classname="ExceptionTest" time="0.0"/>
+  <testcase name="AutenticaUsuarioPerfilInvalido" classname="ExceptionTest" time="0.001"/>
+  <testcase name="AutenticaUsuarioInvalido" classname="ExceptionTest" time="0.001"/>
+  <testcase name="LinhaComUmTraços" classname="ExceptionTest" time="0.001"/>
+  <testcase name="AutenticaUsuarioSenhaInvalida" classname="ExceptionTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
