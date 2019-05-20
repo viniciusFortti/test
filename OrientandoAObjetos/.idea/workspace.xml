@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9403946-13aa-47ec-9a72-7f930351bb9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Vetores/VetorStatico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
@@ -17,7 +17,6 @@
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/vinicius/Semana2/Vetores/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/br/com/vinicius/Semana2/Vetores/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/vinicius/Semana2/Vetores/VetoresAula1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/br/com/vinicius/Semana2/Vetores/VetoresAula1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Vetores/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Vetores/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Vetores/VetoresAula1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Vetores/VetoresAula1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -52,21 +51,39 @@
     <favorites_list name="br.com.vinicius" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Vetores/VetoresAula1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="49" />
+            <state relative-caret-position="-843">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Vetores/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="214" column="46" selection-start-line="214" selection-start-column="46" selection-end-line="214" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Vetores/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Vetores/VetorStatico.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state relative-caret-position="255">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              <folding>
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,6 +101,7 @@
     <findStrings>
       <find>forEach</find>
       <find>toString</find>
+      <find>comp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -92,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/br/com/vinicius/Imovel/Novo.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/vinicius/Produtos/Produtos.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/vinicius/Produtos/Livro.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/vinicius/Produtos/Mouse.java" />
@@ -141,8 +158,9 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Autenticador/PerfilDeUsuarioInvalidoException.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Autenticador/Autenticador.java" />
         <option value="$PROJECT_DIR$/src/test/java/ExceptionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Vetores/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Vetores/VetoresAula1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Vetores/VetorStatico.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Vetores/Main.java" />
       </list>
     </option>
   </component>
@@ -161,6 +179,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,17 +232,10 @@
               <item name="Semana2" type="462c0819:PsiDirectoryNode" />
               <item name="Vetores" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="br.com.vinicius" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrientandoAObjetos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -403,7 +415,8 @@
       <workItem from="1557928306359" duration="7108000" />
       <workItem from="1557943255863" duration="2614000" />
       <workItem from="1558007457226" duration="10752000" />
-      <workItem from="1558093325654" duration="15254000" />
+      <workItem from="1558093325654" duration="15342000" />
+      <workItem from="1558352743568" duration="15282000" />
     </task>
     <servers />
   </component>
@@ -440,7 +453,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69463000" />
+    <option name="totallyTimeSpent" value="84833000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -455,7 +468,7 @@
     <frame x="65" y="24" width="1375" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.69865644" visible="true" weight="0.28216705" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.69865644" visible="true" weight="0.2866817" />
       <window_info id="Structure" order="1" sideWeight="0.5010941" side_tool="true" weight="0.26862302" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -465,14 +478,14 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49962378" weight="0.32947233" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.79608727" visible="true" weight="0.44015443" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7953348" visible="true" weight="0.3153153" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48307" weight="0.3989704" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49811888" weight="0.32947233" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49059445" weight="0.32947233" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49736643" weight="0.32947233" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.20391272" side_tool="true" visible="true" weight="0.44015443" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.20466517" side_tool="true" visible="true" weight="0.3153153" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" sideWeight="0.49962378" weight="0.32947233" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49962378" weight="0.32947233" />
@@ -504,8 +517,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/vinicius/enhance.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/Interface/Carro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -663,24 +674,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-i386/jre/lib/rt.jar!/java/util/Queue.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-i386/jre/lib/rt.jar!/java/util/AbstractQueue.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-390">
           <caret line="7" column="82" lean-forward="true" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-i386/jre/lib/rt.jar!/java/util/PriorityQueue.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -730,13 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Usuario.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -880,17 +870,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Vetores/Main.java">
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-i386/jre/lib/rt.jar!/java/util/Queue.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        <state relative-caret-position="60">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-i386/jre/lib/rt.jar!/java/util/PriorityQueue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#9856#9857#0" expanded="true" />
+            <element signature="e#9894#9895#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/Produtos/Livro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/Produtos/Mouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Vetores/VetorStatico.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Vetores/VetoresAula1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="49" />
+        <state relative-caret-position="-843">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Vetores/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="214" column="46" selection-start-line="214" selection-start-column="46" selection-end-line="214" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
