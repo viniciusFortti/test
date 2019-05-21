@@ -76,12 +76,12 @@ public class VetoresAula1 {
 
     }
 
-    @Override
+   /* @Override
     public String toString() {
         return "VetoresAula1{" +
                 "elementos=" + Arrays.toString(elementos) +
                 ", tamanho=" + tamanho +
                 '}';
-    }
+    }*/
 }
 

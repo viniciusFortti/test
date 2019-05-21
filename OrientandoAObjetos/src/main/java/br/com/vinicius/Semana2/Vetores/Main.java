@@ -213,6 +213,15 @@ public class Main {
         vetorEst.setA("alagoas");
 
         System.out.println(vetorEst.toString());
+
+
+        VetoresAula1 vetores = new VetoresAula1(5);
+
+        System.out.println(vetores);
+
+        String a = new String();
+
+        System.out.println(a);
     }
 }
 
