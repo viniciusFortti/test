@@ -1,18 +1,20 @@
 package br.com.vinicius.Semana2.Vetores;
 
 import br.com.vinicius.Semana2.*;
+import br.com.vinicius.Semana2.Autenticador.Usuario;
 
 import java.util.*;
 
+
 public class Main {
 
-    public static void main(String[] args) {
+    public  synchronized static void main(String[] args) throws Exception {
 
         VetoresAula1 vetor=new VetoresAula1(8);
 
         Scanner ler=new Scanner(System.in);
 
-        vetor.adiciona("este é o primeiro");
+       vetor.adiciona("este é o primeiro");
         vetor.adiciona("b");
         vetor.adiciona("c");
         vetor.adiciona("c");
@@ -20,6 +22,8 @@ public class Main {
         vetor.adiciona("s");
         vetor.adiciona("f");
         vetor.adiciona("fc");
+
+     System.out.println(vetor.toString());
 
         VetoresAula1 vetor2=new VetoresAula1(8);
 
@@ -63,12 +67,12 @@ public class Main {
         //vetor.ImprimirTamanho();
 
         // vetor.toString();
-
+/*
         List<VetoresAula1> listaTest=new ArrayList<>();
 
         listaTest.add(vetor);
         listaTest.add(vetor2);
-        listaTest.add(vetor3);
+        listaTest.add(vetor3);*/
 /*
      //   System.out.println(listaTest.toString());
 
@@ -168,7 +172,7 @@ public class Main {
         encadeada.removeLastOccurrence(vetor2);
         System.out.println("------------------------");
         System.out.println(encadeada.toString());*/
-
+/*
        Queue tstQueue = new PriorityQueue();
 
        tstQueue.add(1);
@@ -178,7 +182,7 @@ public class Main {
        tstQueue.add(5);
        tstQueue.add(6);
        tstQueue.add(7);
-
+*/
 
         /*System.out.println(tstQueue);
         System.out.println("-------------------");
@@ -188,17 +192,17 @@ public class Main {
         tstQueue.remove();
         System.out.println(tstQueue);*/
 
-       /* System.out.println(tstQueue.remove());
+      //  System.out.println(tstQueue.remove());
 
 
-        PriorityQueue queuePrioridade = new PriorityQueue();
-        queuePrioridade.add(1);
+       /* PriorityQueue<pair<Integer, String>> queuePrioridade = new PriorityQueue();
+        queuePrioridade.add(1,"lula");
         queuePrioridade.add(5);
         queuePrioridade.add(3);
 
          queuePrioridade.comparator();
 
-        System.out.println(queuePrioridade);
+        System.out.println(queuePrioridade);*/
 
 
         TreeSet<Integer> ord = new TreeSet<>();
@@ -206,9 +210,9 @@ public class Main {
         ord.add(7);
         ord.add(3);
         ord.add(1);
-        System.out.println(ord);*/
+        System.out.println(ord);
 
-        VetorStatico.VetorStatico2 vetorEst = new VetorStatico.VetorStatico2();
+      VetorStatico.VetorStatico2 vetorEst = new VetorStatico.VetorStatico2();
 
         vetorEst.setA("alagoas");
 
@@ -222,6 +226,48 @@ public class Main {
         String a = new String();
 
         System.out.println(a);
+
+
+
+        VetoresAula1 vetori = new VetoresAula1(10);
+        Usuario usu = new Usuario("s","s","s");
+        vetori.adiciona("a");
+
+        TreeSet<String> hash = new TreeSet<>();
+        hash.add("vinicius");
+        hash.add("andre");
+        hash.add("marcos");
+        System.out.println(hash.toString());
+
+        Hashtable <Integer, String> hash2 = new Hashtable<>();
+        hash2.put(7,"kleber");
+        hash2.put(20,"jaja");
+        hash2.put(3,"vinicius");
+        hash2.put(1,"jose");
+        hash2.put(500,"a");
+
+
+        System.out.println(hash2.toString());
+
+        TreeMap<Integer, String> hash3 = new TreeMap<>();
+        hash3.put(2,"kleber");
+        hash3.put(3,"vinicius");
+        hash3.put(1,"jose");
+        hash3.put(500,"joao");
+        hash3.put(50,null);
+        hash3.put(10,"aaa");
+
+        System.out.println(hash3.entrySet());
+
+
+
+
+
+
+
+
+
+
     }
 }
 

@@ -10,7 +10,7 @@ import br.com.vinicius.Semana1.ingresso.*;
 
 import java.util.*;
 
-import static br.com.vinicius.Metodos.*;
+import static br.com.vinicius.Semana1.Metodos.*;
 
 public class Main {
 

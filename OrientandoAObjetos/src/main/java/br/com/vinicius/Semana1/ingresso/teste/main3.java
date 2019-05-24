@@ -6,6 +6,7 @@ public class main3 {
 
     public static void main(String[] args) {
         Normal n = new Normal();
+        n.nome = "vinicius";
 
     }
 }

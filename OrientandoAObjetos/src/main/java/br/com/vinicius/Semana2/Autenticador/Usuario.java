@@ -23,4 +23,13 @@ public class Usuario {
     public String getPerfil() {
         return perfil;
     }
+
+    @Override
+    public String toString() {
+        return "Usuario{" +
+                "login='" + login + '\'' +
+                ", senha='" + senha + '\'' +
+                ", perfil='" + perfil + '\'' +
+                '}';
+    }
 }

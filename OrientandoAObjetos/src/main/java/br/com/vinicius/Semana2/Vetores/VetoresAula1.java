@@ -1,15 +1,19 @@
 package br.com.vinicius.Semana2.Vetores;
 
 
+import br.com.vinicius.Semana2.Autenticador.Usuario;
+
 import java.util.Arrays;
 
 public class VetoresAula1 {
+
+
 
     private String[] elementos = new String[10];
 
     private int tamanho;
 
-    public VetoresAula1 (int capacidade) {
+    public  VetoresAula1 (int capacidade) {
         this.elementos = new String[capacidade];
         this.tamanho = 0;
     }
@@ -35,7 +39,7 @@ public class VetoresAula1 {
 */
 
 
-    public boolean adiciona(String elemento) {
+    public synchronized boolean adiciona(String elemento) throws Exception {
         if(this.tamanho < this.elementos.length) {
             this.elementos[this.tamanho] = elemento;
             this.tamanho ++;
@@ -76,12 +80,12 @@ public class VetoresAula1 {
 
     }
 
-   /* @Override
+    @Override
     public String toString() {
         return "VetoresAula1{" +
                 "elementos=" + Arrays.toString(elementos) +
                 ", tamanho=" + tamanho +
-                '}';
-    }*/
+              '}';
+    }
 }
 

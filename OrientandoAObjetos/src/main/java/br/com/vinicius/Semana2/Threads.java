@@ -3,6 +3,7 @@ package br.com.vinicius.Semana2;
 import java.lang.reflect.InvocationTargetException;
 public class Threads {
 
+
         /**
          * @param args
          * @throws InvocationTargetException
@@ -14,6 +15,7 @@ public class Threads {
                 public void run() {
                     for(int i = 0; i < 500; i++)
                         System.out.println(i+": t1");
+
                 }
 
             };
