@@ -2,18 +2,16 @@ package br.com.vinicius.Semana3;
 
 import br.com.vinicius.Semana3.Java8.Usuario;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 import java.awt.Button;
 import java.util.function.Predicate;
+import java.util.stream.Stream;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Usuario user1=new Usuario("vinicius", 8);
+       /* Usuario user1=new Usuario("vinicius", 8);
         Usuario user2=new Usuario("adamastor", 28);
         Usuario user3=new Usuario("jean Cloude", 15);
 
@@ -62,6 +60,17 @@ public class Main {
 
         usuarios.forEach(u -> System.out.println(u.toString()));
 
+*/
+       ArrayList<Long> lista = new ArrayList();
+
+       lista.add(7l);
+       lista.add(17l);
+       lista.add(2l);
+
+       lista.stream().filter(n -> n.equals(7l)).forEach((n -> System.out.println(n)));
+
+
+        System.out.println();lista.stream().toArray();
 
 
 
