@@ -8,8 +8,8 @@ import java.util.*;
 
 public class Main {
 
-    public  synchronized static void main(String[] args) throws Exception {
-
+    public  synchronized static void main(String[] args){
+/*
         VetoresAula1 vetor=new VetoresAula1(8);
 
         Scanner ler=new Scanner(System.in);
@@ -66,7 +66,7 @@ public class Main {
 
         //vetor.ImprimirTamanho();
 
-        // vetor.toString();
+        // vetor.toString();*/
 /*
         List<VetoresAula1> listaTest=new ArrayList<>();
 
@@ -204,7 +204,7 @@ public class Main {
 
         System.out.println(queuePrioridade);*/
 
-
+/*
         TreeSet<Integer> ord = new TreeSet<>();
 
         ord.add(7);
@@ -260,14 +260,25 @@ public class Main {
         System.out.println(hash3.entrySet());
 
 
+*/    Double[] ordered =new Double[3];
 
+        ordered[0] = 15d;
+        ordered[1] = 7d;
+        ordered[2] = 5d;
 
+        for (int i = 0; i < ordered.length; i++){
+            for (int j = 0;j< ordered.length - 1;j++) {
 
-
-
-
-
-
+                if (ordered[j] > ordered[j + 1]) {
+                    double aux;
+                    aux=ordered[j];
+                    ordered[j]=ordered[j + 1];
+                    ordered[j + 1]=aux;
+                }
+            }
+        }for (double numero : ordered) {
+            System.out.println(numero);
+        }
     }
 }
 

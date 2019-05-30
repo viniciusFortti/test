@@ -1,6 +1,6 @@
 package br.com.vinicius.Semana1.Interface;
 
-public class Carros {
+public class Carros implements Carro {
 
     private String nome;
     private String marca;
@@ -38,5 +38,10 @@ public class Carros {
                 ", marca='" + marca + '\'' +
                 ", ano=" + ano +
                 '}';
+    }
+
+    public static void main(String[] args) {
+        Carros carro = new Carros();
+        carro.girarRodas();
     }
 }

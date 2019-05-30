@@ -2,6 +2,8 @@ package br.com.vinicius.Semana1.Interface;
 
 public interface Carro {
 
-     void girarRodas();
-     void desligarCarro();
+      default void girarRodas() {
+          System.out.println("rodas para a esquerda");
+     }
+
 }

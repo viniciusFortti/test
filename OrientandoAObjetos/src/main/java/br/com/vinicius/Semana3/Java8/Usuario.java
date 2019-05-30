@@ -22,7 +22,7 @@ public class Usuario {
         return pontos;
     }
 
-    public void turnModerador(){
+    public void turnModerator(){
         this.moderador = true;
     }
 
