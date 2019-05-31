@@ -54,7 +54,12 @@ public class Main {
         usuariosManipulados.forEach(u -> System.out.println("usuarios  com a letra v tornaram-se moderadores : " + u));
         System.out.println("==============");
 
+
+
+        Thread thread = new Thread(() -> System.out.println("Thread com lambda e interface funcional"));
+
     }
+
 }
 
 

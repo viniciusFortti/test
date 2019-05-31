@@ -32,6 +32,11 @@ public class Carros implements Carro {
     }
 
     @Override
+    public void girarRodas(String string){
+        System.out.println("sobre escrito");
+    }
+
+    @Override
     public String toString() {
         return "Carros{" +
                 "nome='" + nome + '\'' +
@@ -42,6 +47,7 @@ public class Carros implements Carro {
 
     public static void main(String[] args) {
         Carros carro = new Carros();
-        carro.girarRodas();
+        carro.girarRodas("ainda sobre escrito?");
     }
+
 }

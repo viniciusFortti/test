@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="mlib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/livro-java-9/Capítulo 9, Evolução dos JARs no JDK 9/mlib/br.com.casadocodigo-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/livro-java-9/Capítulo 9, Evolução dos JARs no JDK 9/mlib/br.com.casadocodigo.domain-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/livro-java-9/Capítulo 9, Evolução dos JARs no JDK 9/mlib/br.com.casadocodigo.http-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/livro-java-9/Capítulo 9, Evolução dos JARs no JDK 9/mlib/br.com.casadocodigo.nf-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

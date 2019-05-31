@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/livro-java-9/Capítulo 6, Juntando as peças/bookstore/bookstore.iml" filepath="$PROJECT_DIR$/livro-java-9/Capítulo 6, Juntando as peças/bookstore/bookstore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livro-java-9/bookstore-modular (final)/src/br.com.casadocodigo/br.com.casadocodigo.iml" filepath="$PROJECT_DIR$/livro-java-9/bookstore-modular (final)/src/br.com.casadocodigo/br.com.casadocodigo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livro-java-9/bookstore-modular (final)/src/br.com.casadocodigo.domain/br.com.casadocodigo.domain.iml" filepath="$PROJECT_DIR$/livro-java-9/bookstore-modular (final)/src/br.com.casadocodigo.domain/br.com.casadocodigo.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livro-java-9/bookstore-modular (final)/src/br.com.casadocodigo.http/br.com.casadocodigo.http.iml" filepath="$PROJECT_DIR$/livro-java-9/bookstore-modular (final)/src/br.com.casadocodigo.http/br.com.casadocodigo.http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livro-java-9/bookstore-modular (final)/src/br.com.casadocodigo.logging/br.com.casadocodigo.logging.iml" filepath="$PROJECT_DIR$/livro-java-9/bookstore-modular (final)/src/br.com.casadocodigo.logging/br.com.casadocodigo.logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livro-java-9/bookstore-modular (final)/src/br.com.casadocodigo.nf/br.com.casadocodigo.nf.iml" filepath="$PROJECT_DIR$/livro-java-9/bookstore-modular (final)/src/br.com.casadocodigo.nf/br.com.casadocodigo.nf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livro-java-9/bookstore-modular (final)/src/br.com.casadocodigo.tracking/br.com.casadocodigo.tracking.iml" filepath="$PROJECT_DIR$/livro-java-9/bookstore-modular (final)/src/br.com.casadocodigo.tracking/br.com.casadocodigo.tracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livro-java-9/livro-java-9.iml" filepath="$PROJECT_DIR$/livro-java-9/livro-java-9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/livro-java-9/Capítulo 9, Evolução dos JARs no JDK 9/multi-release-jar/multi-release-jar.iml" filepath="$PROJECT_DIR$/livro-java-9/Capítulo 9, Evolução dos JARs no JDK 9/multi-release-jar/multi-release-jar.iml" />
+    </modules>
+  </component>
+</project>
