@@ -6,9 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9403946-13aa-47ec-9a72-7f930351bb9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/Interface/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/Interface/Carro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/Interface/Carros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/Interface/Carros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana3/Java8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana3/Java8/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apresentação/ApresentaçãoTerceiraSemana.odp" beforeDir="false" afterPath="$PROJECT_DIR$/../Apresentação/ApresentaçãoTerceiraSemana.odp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java9/livro-java-9" beforeDir="false" afterPath="$PROJECT_DIR$/../java9/livro-java-9" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -43,12 +44,23 @@
     <favorites_list name="br.com.vinicius" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="557">
+              <caret line="181" column="40" selection-start-line="181" selection-start-column="40" selection-end-line="181" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -66,9 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/Abstract/FuncionarioAbs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/ingresso/Camarote.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/ingresso/main4.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/ingresso/CamaroteInferior.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Exceptions/Excessões/SemB.java" />
@@ -117,6 +126,9 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana3/Java8/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/Interface/Carros.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/Interface/Carro.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/var.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/Nonnull.java" />
       </list>
     </option>
   </component>
@@ -140,7 +152,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -184,48 +195,11 @@
               <item name="vinicius" type="462c0819:PsiDirectoryNode" />
               <item name="Semana1" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="br.com.vinicius" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrientandoAObjetos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="vinicius" type="462c0819:PsiDirectoryNode" />
-              <item name="Semana1" type="462c0819:PsiDirectoryNode" />
-              <item name="Interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="br.com.vinicius" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrientandoAObjetos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="vinicius" type="462c0819:PsiDirectoryNode" />
-              <item name="Semana2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="br.com.vinicius" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrientandoAObjetos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="vinicius" type="462c0819:PsiDirectoryNode" />
-              <item name="Semana3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="br.com.vinicius" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrientandoAObjetos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="vinicius" type="462c0819:PsiDirectoryNode" />
-              <item name="Semana3" type="462c0819:PsiDirectoryNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,10 +215,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Autenticador" />
-      <recent name="$PROJECT_DIR$/src/main/java/br/com/vinicius/Pessoas" />
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.vinicius.Semana1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.vinicius.Semana3.Observable" />
@@ -253,11 +231,10 @@
       <recent name="br.com.vinicius.Semana3" />
       <recent name="br.com.vinicius.Semana2.Clonagem" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Autenticador" />
-      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/main/java/br/com/vinicius/Pessoas" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -384,6 +361,7 @@
       <workItem from="1559131122784" duration="10376000" />
       <workItem from="1559216897406" duration="12732000" />
       <workItem from="1559305270786" duration="3867000" />
+      <workItem from="1559563179625" duration="4402000" />
     </task>
     <servers />
   </component>
@@ -420,7 +398,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155063000" />
+    <option name="totallyTimeSpent" value="159465000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,8 +411,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1375" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5796545" visible="true" weight="0.27857682" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5796545" visible="true" weight="0.2843063" />
       <window_info id="Structure" order="1" sideWeight="0.4203455" side_tool="true" weight="0.31903687" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -545,35 +524,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/ingresso/Normal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/ingresso/teste/main3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana2/Autenticador/Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding>
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-i386/jre/lib/rt.jar!/java/util/Queue.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -997,6 +947,23 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/var.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/Nonnull.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/vinicius/Semana1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="181" column="40" selection-start-line="181" selection-start-column="40" selection-end-line="181" selection-end-column="40" />
         </state>
       </provider>
     </entry>

@@ -7,6 +7,7 @@ import br.com.vinicius.Semana1.Imovel.Velho;
 import br.com.vinicius.Semana1.Interface.Mazda;
 import br.com.vinicius.Semana1.Pessoas.*;
 import br.com.vinicius.Semana1.ingresso.*;
+import br.com.vinicius.Semana3.Java8.Usuario;
 
 import java.util.*;
 
@@ -176,6 +177,9 @@ public class Main {
             System.out.println(palavra);
         }
 
+
+        (@Nonnull var valor, @Nonnull var conversorMoeda) →
+        conversorMoeda.converter(valor);
     }
 
 }
