@@ -178,8 +178,7 @@ public class Main {
         }
 
 
-        (@Nonnull var valor, @Nonnull var conversorMoeda) →
-        conversorMoeda.converter(valor);
+
     }
 
 }
