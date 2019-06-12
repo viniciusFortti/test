@@ -1,4 +1,4 @@
-package testerepos.test;
+package testerepos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

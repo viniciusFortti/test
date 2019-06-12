@@ -1,6 +1,7 @@
 package testerepos.Controller;
 
 
+import testerepos.DTO.UsuarioDTO;
 import testerepos.Service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -18,15 +19,24 @@ public class UsuarioController {
 
     @GetMapping(value = "/{id}")
     @ResponseBody
-    public Usuario buscarPorId(@PathVariable int id){
+    public Usuario buscarPorId(@PathVariable int id) {
         return usuarioService.buscaPorId(id);
     }
 
     @PostMapping(value = "/registrar")
     @ResponseStatus(HttpStatus.CREATED)
     @ResponseBody
-    public Usuario salvar(@RequestBody Usuario usuario){
-        return usuarioService.salvar(usuario);
+    public Usuario salvar(@RequestBody UsuarioDTO dto) {
+            return usuarioService.salvar(dto.transformaParaObjeto());
+    }
+
+    @PutMapping(value = "/editar/{id}")
+    @ResponseBody
+    public Usuario editar(@RequestBody UsuarioDTO dto,@PathVariable int id){
+           return usuarioService.editar(id,dto.transformaParaObjeto());
     }
 
 }
+
+
+

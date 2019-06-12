@@ -3,7 +3,8 @@ package testerepos.Entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "USUARIOS")
+@Table(name = "USUARIO")
+
 public class Usuario {
 
     @Id
@@ -16,6 +17,16 @@ public class Usuario {
 
     @Column(nullable = false,name = "IDADE")
     private int idade;
+
+    @Column(nullable = false,name = "ADMIN")
+    private boolean admin;
+
+    public Usuario(){}
+
+    public Usuario(String nome, int idade){
+        this.nome = nome;
+        this.idade = idade;
+    }
 
     public int getId() {
         return id;
@@ -39,5 +50,13 @@ public class Usuario {
 
     public void setIdade(int idade) {
         this.idade = idade;
+    }
+
+    public void setAdmin(boolean admin) {
+        this.admin = admin;
+    }
+
+    public boolean isAdmin() {
+        return admin;
     }
 }
