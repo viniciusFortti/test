@@ -6,6 +6,8 @@ import org.springframework.transaction.annotation.Transactional;
 import testerepos.Entity.Usuario;
 import testerepos.Repository.UsuarioRepository;
 
+import java.util.List;
+
 import static testerepos.Service.UtilService.validarUsuario;
 
 @Service
@@ -38,6 +40,17 @@ public class UsuarioService {
     @Transactional(rollbackFor =  Exception.class)
     public void remover(Usuario usuario){
         usuarioRepository.delete(usuario);
+    }
+
+    @Transactional(rollbackFor = Exception.class)
+    public Usuario buscaPorNome(String nome){
+        return usuarioRepository.findByNome(nome);
+    }
+
+    @Transactional(rollbackFor = Exception.class)
+    public List<Usuario> buscarTodos(){
+        List<Usuario> todosUsuarios = (List<Usuario>) usuarioRepository.findAll();
+        return todosUsuarios;
     }
 
 }
