@@ -1,0 +1,147 @@
+{
+	"info": {
+		"_postman_id": "ed930ae8-4859-4656-bd40-0ae006f8a4b8",
+		"name": "wed",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/usuario/registrar",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n\t\"nome\" : \"andre\",\n\t\"idade\" :30,\n\t\"admin\" : true\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/Usuarios/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Usuarios",
+						""
+					]
+				},
+				"description": "ed"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/usuario/1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/Usuarios/?nome=andre",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Usuarios",
+						""
+					],
+					"query": [
+						{
+							"key": "nome",
+							"value": "andre"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/Usuarios/",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\n\t\"nome\" : \"andrer\",\n\t\"idade\" :21,\n\t\"admin\" : true\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/Usuarios/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Usuarios",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/Usuarios/1",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\n\t\"nome\" : \"andrerer\",\n\t\"idade\" :21,\n\t\"admin\" : true\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/Usuarios/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Usuarios",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
