@@ -10,6 +10,5 @@ import java.util.List;
 public interface UsuarioRepository extends CrudRepository<Usuario, Integer> {
 
     Usuario findByNome(String nome);
-    List<Usuario> findByOrderByIdadeAsc(int idade);
 
 }

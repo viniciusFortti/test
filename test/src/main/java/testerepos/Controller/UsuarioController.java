@@ -59,6 +59,8 @@ public class UsuarioController{
         return usuarioService.buscarTodos();
     }
 
+    
+
 }
 
 
