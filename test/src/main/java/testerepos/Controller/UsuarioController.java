@@ -1,7 +1,8 @@
 package testerepos.Controller;
 
 
-import com.fasterxml.jackson.annotation.JsonFilter;
+import org.springframework.boot.ApplicationArguments;
+import org.springframework.http.MediaType;
 import testerepos.DTO.UsuarioDTO;
 import testerepos.Service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +15,7 @@ import java.util.List;
 
 
 @Controller
-@RequestMapping("/api/Usuarios")
+@RequestMapping("/Usuarios")
 public class UsuarioController{
 
     @Autowired
@@ -27,16 +28,15 @@ public class UsuarioController{
     }
 
     @GetMapping(value = "/{id}")
-    @ResponseStatus(value = HttpStatus.OK, reason = "usuario editado com sucesso")
+    @ResponseStatus(value = HttpStatus.OK)
     @ResponseBody
     public Usuario buscarPorId(@PathVariable int id) {
         return usuarioService.buscaPorId(id);
     }
 
-    @GetMapping
-    @RequestMapping(method = RequestMethod.OPTIONS)
+    @GetMapping(value = "/param")
     @ResponseBody
-    public Usuario buscarParametro(@RequestParam("nome") String nome){
+    public Usuario buscarParametro(@RequestParam String nome){
         return usuarioService.buscaPorNome(nome);
     }
 
@@ -58,7 +58,6 @@ public class UsuarioController{
     public List<Usuario> buscarAll() {
         return usuarioService.buscarTodos();
     }
-
 
 
 }
