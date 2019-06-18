@@ -18,14 +18,26 @@ public class Usuario {
     @Column(nullable = false,name = "IDADE")
     private int idade;
 
+    @Column(nullable = false,name = "SENHA")
+    private String senha;
+
     @Column(nullable = false,name = "ADMIN")
     private boolean admin;
 
     public Usuario(){}
 
-    public Usuario(String nome, int idade){
+    public Usuario(String nome, int idade, String senha){
         this.nome = nome;
         this.idade = idade;
+        this.senha = senha;
+    }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
     }
 
     public int getId() {

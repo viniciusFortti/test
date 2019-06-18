@@ -6,9 +6,10 @@ public class UsuarioDTO {
 
     private String nome;
     private int idade;
+    private String senha;
 
     public Usuario transformaParaObjeto(){
-        return new Usuario(nome, idade);
+        return new Usuario(nome, idade,senha);
     }
 
 
@@ -25,4 +26,8 @@ public class UsuarioDTO {
     }
 
     public String getNome() {return nome;}
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
 }

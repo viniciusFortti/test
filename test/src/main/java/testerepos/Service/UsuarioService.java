@@ -1,6 +1,7 @@
 package testerepos.Service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import testerepos.Entity.Usuario;
@@ -19,6 +20,7 @@ public class UsuarioService {
     @Transactional(rollbackFor = Exception.class)
     public Usuario salvar(Usuario usuario){
         if(validarUsuario(usuario)) {
+            usuario.setSenha(new BCryptPasswordEncoder().encode(usuario.getSenha()));
             return usuarioRepository.save(usuario);
         }
         else{return null;}
