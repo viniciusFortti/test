@@ -1,6 +1,5 @@
 package testerepos.Service;
 
-import testerepos.DTO.UsuarioDTO;
 import testerepos.Entity.Usuario;
 
 public class UtilService {
