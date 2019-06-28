@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/client/client.iml" filepath="$PROJECT_DIR$/src/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ita/ita.iml" filepath="$PROJECT_DIR$/src/ita/ita.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ita2/ita2.iml" filepath="$PROJECT_DIR$/src/ita2/ita2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/tradu/tradu.iml" filepath="$PROJECT_DIR$/src/tradu/tradu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tradu2.iml" filepath="$PROJECT_DIR$/tradu2.iml" />
+    </modules>
+  </component>
+</project>

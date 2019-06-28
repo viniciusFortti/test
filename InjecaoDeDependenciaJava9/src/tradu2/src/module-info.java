@@ -1,0 +1,3 @@
+module tradu {
+    exports traductPackage;
+}

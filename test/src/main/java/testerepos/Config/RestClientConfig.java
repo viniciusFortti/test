@@ -12,7 +12,7 @@ import java.util.List;
 @Configuration
 public class RestClientConfig {
 
-    @Bean
+    /*@Bean
     public RestTemplate restTemplate() {
         RestTemplate restTemplate = new RestTemplate();
 
@@ -24,6 +24,6 @@ public class RestClientConfig {
             interceptors.add(new RestTemplateHeaderModifierInterceptor());
             restTemplate.setInterceptors(interceptors);
             return restTemplate;
-    }
+    }*/
 }
 
