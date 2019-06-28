@@ -1,3 +1,0 @@
-mongodb+srv://admin:<admin>@mongotest-bwrxo:
-  mongodb:
-    net/test?retryWrites=true&w=majority:
