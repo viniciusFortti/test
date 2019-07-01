@@ -237,7 +237,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\t\n\t\"id\": 3,\n    \"nome\": \"Vinicius Pulgatti\",\n    \"cpf\": \"234928359367\"\n}"
+					"raw": "{\t\n\t\"id\": 2,\n    \"nome\": \"ana\",\n    \"cpf\": \"54638359367\",\n    \"email\": \"ana@gmail.com\",\n    \"senha\": \"ana\"\n}"
 				},
 				"url": {
 					"raw": "http://localhost:8080/usuarios/",
@@ -268,7 +268,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": " {\n        \"id\": 3,\n        \"nome\": \"Vinicius\",\n        \"cpf\": \"234928359367\"\n    }"
+					"raw": "{\n        \"id\": 3,\n        \"nome\": \"Vinicius Pulgatti\",\n        \"cpf\": \"234928359367\",\n        \"email\": null,\n        \"senha\": null\n    }"
 				},
 				"url": {
 					"raw": "http://localhost:8080/usuarios/",
