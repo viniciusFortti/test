@@ -16,7 +16,7 @@ public class RestTemplateHeaderModifierInterceptor implements ClientHttpRequestI
             ClientHttpRequestExecution execution) throws IOException {
 
         ClientHttpResponse response = execution.execute(request, body);
-        response.getHeaders().add("Foo", "bar");
+        response.getHeaders().add("new-header", "add");
         return response;
     }
 }
