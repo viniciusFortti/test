@@ -209,7 +209,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:8080/usuarios/",
+					"raw": "http://localhost:8080/usuarios/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -217,7 +217,7 @@
 					"port": "8080",
 					"path": [
 						"usuarios",
-						""
+						"1"
 					]
 				}
 			},
@@ -237,7 +237,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\t\n\t\"id\": 2,\n    \"nome\": \"ana\",\n    \"cpf\": \"54638359367\",\n    \"email\": \"ana@gmail.com\",\n    \"senha\": \"ana\"\n}"
+					"raw": "{\t\n\t\"id\": 5,\n    \"nome\": \"jose\",\n    \"cpf\": \"5338359367\",\n    \"email\": \"joao@gmail.com\",\n    \"senha\": \"joao\"\n}"
 				},
 				"url": {
 					"raw": "http://localhost:8080/usuarios/",
@@ -268,10 +268,34 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n        \"id\": 3,\n        \"nome\": \"Vinicius Pulgatti\",\n        \"cpf\": \"234928359367\",\n        \"email\": null,\n        \"senha\": null\n    }"
+					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:8080/usuarios/",
+					"raw": "http://localhost:8080/usuarios/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"usuarios",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DESAFIO FTP",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/usuarios/?nome=x",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -280,6 +304,36 @@
 					"path": [
 						"usuarios",
 						""
+					],
+					"query": [
+						{
+							"key": "nome",
+							"value": "x"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DESAFIO FTP",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/usuarios/listar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"usuarios",
+						"listar"
 					]
 				}
 			},
