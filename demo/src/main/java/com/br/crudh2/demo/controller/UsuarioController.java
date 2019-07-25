@@ -15,12 +15,12 @@ public class UsuarioController {
     UsuarioService usuarioService;
 
     @PostMapping(value = "/")
-    public Usuario salvar(@RequestParam Usuario usuario){
+    public Usuario salvar(@RequestParam Usuario usuario) {
         return usuarioService.salvar(usuario);
     }
 
     @GetMapping(value = "/{id}")
-    public Optional<Usuario> visualizar(@PathVariable Long id){
+    public Optional<Usuario> visualizar(@PathVariable Long id) {
         return usuarioService.visualizar(id);
     }
 
@@ -31,7 +31,7 @@ public class UsuarioController {
     //}
 
     @DeleteMapping(value = "/{id}")
-    public void excluir(@PathVariable Long id){
+    public void excluir(@PathVariable Long id) {
         usuarioService.excluir(id);
     }
 

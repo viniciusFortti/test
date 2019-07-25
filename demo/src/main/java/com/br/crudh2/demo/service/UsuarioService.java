@@ -11,7 +11,7 @@ public class UsuarioService {
     @Autowired
     UsuarioRepository usuarioRepository;
 
-    public Usuario salvar(Usuario usuario){
+    public Usuario salvar(Usuario usuario) {
         return usuarioRepository.save(usuario);
     }
 
@@ -25,6 +25,6 @@ public class UsuarioService {
     //}
 
     public void excluir(Long id) {
-         usuarioRepository.deleteById(id);
+        usuarioRepository.deleteById(id);
     }
 }
