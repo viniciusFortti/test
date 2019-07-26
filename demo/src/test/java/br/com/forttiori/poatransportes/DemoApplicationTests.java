@@ -1,4 +1,4 @@
-package br.com.forttiori.poatransportes.demo;
+package br.com.forttiori.poatransportes;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
